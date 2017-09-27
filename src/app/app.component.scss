@@ -1,0 +1,16 @@
+
+
+#VideoContent{
+    width: 60%;
+    padding: 0 5% 5% 5%;  
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+}
+
+app-lateral{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+}
+

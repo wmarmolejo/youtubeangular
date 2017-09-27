@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="nombre">
+<button (click)="add()">Crear Sugerido</button>
+<div *ngFor="let item of sugeridos">
+    <div class="sugeridos">
+        <div class="thumb">{{item.thumb}}</div>
+        <div class="title">{{item.name}}</div>
+        <div class="time">{{item.time}}</div>
+      </div>
+</div>
